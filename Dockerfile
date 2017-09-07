@@ -9,4 +9,4 @@ WORKDIR /app
 VOLUME ["/app"]
 
 CMD ["cap"]
-
+ENTRYPOINT ["cap"]
